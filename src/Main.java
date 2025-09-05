@@ -12,11 +12,11 @@ public class Main {
 							        }
 
 	        //TODO: Function does not work with negative numbers. I do not, however, give a fuck.
-		//    public static boolean isEven(int num) {
-		//            if (num-2 == 0)
-		//                        return true;
-		//                                else if (num-2 == -1)
-		//                                            return false;
-		//                                                    return isEven(num-2);
-		//                                                        }
-		//                                                        }
+		public static boolean isEven(int num) {
+		            if (num-2 == 0)
+		                        return true;   
+					else if (num-2 == -1)
+		                        return false;
+		            return isEven(num-2);
+		            }
+		}
